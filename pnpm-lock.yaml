@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@vuepress/plugin-google-analytics':
+        specifier: 2.0.0-rc.66
+        version: 2.0.0-rc.66(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.5)(less@4.2.1)(sass-embedded@1.83.1)(sass@1.83.1)(stylus@0.64.0)(typescript@5.7.3))(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3)))
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.19
@@ -1139,6 +1143,11 @@ packages:
 
   '@vuepress/plugin-git@2.0.0-rc.68':
     resolution: {integrity: sha512-k/tXBSIyQM26UrmDK/mN1/q6gw8PmF2uLyIaso+B39qCOFQKUBq4uJF2a0oYTq9tpjM5AHwwBpytPE5cdV/BPQ==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.19
+
+  '@vuepress/plugin-google-analytics@2.0.0-rc.66':
+    resolution: {integrity: sha512-spVfY/izQjbjk+o2Ru0nmY62x0z3OoFTDlfRD8NyYN/gfIU4G8wLhvbIjAj+fpueytPZt/PUYeokA0GA+oOZ6A==}
     peerDependencies:
       vuepress: 2.0.0-rc.19
 
@@ -4027,6 +4036,10 @@ snapshots:
   '@vuepress/plugin-git@2.0.0-rc.68(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.5)(less@4.2.1)(sass-embedded@1.83.1)(sass@1.83.1)(stylus@0.64.0)(typescript@5.7.3))(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3)))':
     dependencies:
       execa: 9.5.2
+      vuepress: 2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.5)(less@4.2.1)(sass-embedded@1.83.1)(sass@1.83.1)(stylus@0.64.0)(typescript@5.7.3))(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3))
+
+  '@vuepress/plugin-google-analytics@2.0.0-rc.66(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.5)(less@4.2.1)(sass-embedded@1.83.1)(sass@1.83.1)(stylus@0.64.0)(typescript@5.7.3))(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3)))':
+    dependencies:
       vuepress: 2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.5)(less@4.2.1)(sass-embedded@1.83.1)(sass@1.83.1)(stylus@0.64.0)(typescript@5.7.3))(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3))
 
   '@vuepress/plugin-markdown-hint@2.0.0-rc.69(markdown-it@14.1.0)(typescript@5.7.3)(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.5)(less@4.2.1)(sass-embedded@1.83.1)(sass@1.83.1)(stylus@0.64.0)(typescript@5.7.3))(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3)))':

@@ -1,6 +1,9 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+
+const isProd = process.env.NODE_ENV === 'production'
 
 export default defineUserConfig({
   base: '/',
@@ -23,12 +26,16 @@ export default defineUserConfig({
     ['meta', {'meta': 'google-site-verification', 'content': 'TWSCIdeIEIO2M7dTsf4O8YAqpdMNzbQof3DZOaI7Si4'}]
   ],
 
+  plugins: [
+      isProd ? googleAnalyticsPlugin({ id: 'G-L1ZLC7XBGS' }): []
+  ],
+
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://hunterx-docs.netlify.app',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
