@@ -8,8 +8,8 @@ config:
     background: tint-plate
     hero:
       name: HunterX 文档
-      tagline: Async Distributed Crawler
-      text: Efficient and stable async distributed crawler.
+      tagline: 异步并发分布式爬虫框架
+      text: 高效稳定、支持异步并发与分布式任务调度的爬虫框架。
       actions:
         -
           theme: brand

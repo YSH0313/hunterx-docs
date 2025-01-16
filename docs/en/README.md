@@ -8,8 +8,8 @@ config:
     background: tint-plate
     hero:
       name: HunterX Docs
-      tagline: VuePress Next Theme
-      text: A simple, feature-rich, document & blog
+      tagline: Async Distributed Crawler
+      text: Efficient and stable async distributed crawler.
       actions:
         -
           theme: brand
