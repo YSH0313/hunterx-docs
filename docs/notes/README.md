@@ -5,6 +5,28 @@ createTime: 2025/01/11 16:41:54
 permalink: /guide/
 ---
 
+<NpmBadgeGroup repo="YSH0313/HunterX">
+  <span class="vp-npm-badge">
+    <a href="https://www.python.org/" target="_blank" rel="noreferrer" class="no-icon">
+      <img alt="Static Badge" src="https://img.shields.io/badge/build-%3E%3D3.11-brightgreen?logo=python&logoColor=appveyor&logoSize=violet&label=python&labelColor=abcdef&color=blue&cacheSeconds=3600">
+    </a>
+  </span>
+  <NpmBadge type="stars" />
+  <NpmBadge type="forks" />
+  <span class="vp-npm-badge">
+    <a href="https://github.com/YSH0313/HunterX/releases" target="_blank" rel="noreferrer" class="no-icon">
+      <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/YSH0313/HunterX/total?logo=semanticrelease&logoColor=violet&logoSize=auto&label=release&labelColor=abcdef&color=fedcba&cacheSeconds=3600&link=https%3A%2F%2Fgithub.com%2FYSH0313%2FHunterX%2Freleases">
+    </a>
+  </span>
+  <span class="vp-npm-badge">
+    <a href="https://pepy.tech/projects/hunterx?timeRange=threeMonths&category=version&includeCIDownloads=true&granularity=daily&viewType=chart&versions=0.1.2%2C0.1.1" target="_blank" rel="noreferrer" class="no-icon">
+      <img alt="Pepy Total Downloads" src="https://img.shields.io/pepy/dt/hunterx?color=blue&cacheSeconds=3600&link=https%3A%2F%2Fpepy.tech%2Fprojects%2Fhunterx%3FtimeRange%3DthreeMonths%26category%3Dversion%26includeCIDownloads%3Dtrue%26granularity%3Ddaily%26viewType%3Dchart%26versions%3D0.1.2%252C0.1.1">
+    </a>
+  </span>
+  <NpmBadge type="license" />
+  <NpmBadge type="source" />
+</NpmBadgeGroup>
+
 本部分将指导您快速上手使用 `HunterX` 框架，并帮助您了解如何通过简单的步骤开始您的爬虫项目。无论您是框架的新手还是有经验的开发者，按照以下步骤，您将能够迅速搭建并运行您的第一个爬虫任务。
 
 :::: card-masonry
